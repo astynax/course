@@ -1,7 +1,7 @@
 #+TITLE: My progress in NICTA Course excercises
 
 - [X] ~Course.List~
-- [ ] ~Course.Functor~
+- [X] ~Course.Functor~
 - [ ] ~Course.Apply~
 - [ ] ~Course.Applicative~
 - [ ] ~Course.Bind~
