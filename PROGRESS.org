@@ -2,9 +2,7 @@
 
 - [X] ~Course.List~
 - [X] ~Course.Functor~
-- [ ] ~Course.Apply~
-- [ ] ~Course.Applicative~
-- [ ] ~Course.Bind~
+- [X] ~Course.Applicative~
 - [ ] ~Course.Monad~
 - [ ] ~Course.FileIO~
 - [ ] ~Course.State~
