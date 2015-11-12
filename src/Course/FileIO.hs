@@ -62,7 +62,7 @@ the contents of c
 main ::
   IO ()
 main =
-  error "todo: Course.FileIO#main"
+  getArgs >>= \(fname :. _) -> run fname
 
 type FilePath =
   Chars
@@ -71,31 +71,38 @@ type FilePath =
 run ::
   Chars
   -> IO ()
-run =
-  error "todo: Course.FileIO#run"
+run fname =
+  getFile fname >>= \(_, fnames) ->
+  getFiles (lines fnames) >>=
+  printFiles
 
 getFiles ::
   List FilePath
   -> IO (List (FilePath, Chars))
-getFiles =
-  error "todo: Course.FileIO#getFiles"
+getFiles = mapA getFile
 
 getFile ::
   FilePath
   -> IO (FilePath, Chars)
-getFile =
-  error "todo: Course.FileIO#getFile"
+getFile fname =
+  readFile fname >>= pure . (,) fname
 
 printFiles ::
   List (FilePath, Chars)
   -> IO ()
-printFiles =
-  error "todo: Course.FileIO#printFiles"
+printFiles = mapA_ (uncurry printFile)
 
 printFile ::
   FilePath
   -> Chars
   -> IO ()
-printFile =
-  error "todo: Course.FileIO#printFile"
+printFile fname content =
+  putStrLn ("============ " ++ fname) >>
+  putStrLn content
 
+-- helpers
+mapA :: Applicative f => (a -> f b) -> List a -> f (List b)
+mapA = (sequence .) . map
+
+mapA_ :: (Applicative f) => (a -> f b) -> List a -> f ()
+mapA_ = (void .) . mapA

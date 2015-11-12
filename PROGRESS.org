@@ -4,7 +4,7 @@
 - [X] ~Course.Functor~
 - [X] ~Course.Applicative~
 - [X] ~Course.Monad~
-- [ ] ~Course.FileIO~
+- [X] ~Course.FileIO~
 - [ ] ~Course.State~
 - [ ] ~Course.StateT~
 - [ ] ~Course.Extend~
