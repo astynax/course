@@ -3,7 +3,7 @@
 - [X] ~Course.List~
 - [X] ~Course.Functor~
 - [X] ~Course.Applicative~
-- [ ] ~Course.Monad~
+- [X] ~Course.Monad~
 - [ ] ~Course.FileIO~
 - [ ] ~Course.State~
 - [ ] ~Course.StateT~
