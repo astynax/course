@@ -8,7 +8,7 @@
 - [X] ~Course.State~
 - [X] ~Course.StateT~
 - [X] ~Course.Extend~
-- [ ] ~Course.Comonad~
+- [X] ~Course.Comonad~
 - [ ] ~Course.Compose~
 - [ ] ~Course.Traversable~
 - [ ] ~Course.ListZipper~
