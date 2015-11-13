@@ -7,7 +7,7 @@
 - [X] ~Course.FileIO~
 - [X] ~Course.State~
 - [X] ~Course.StateT~
-- [ ] ~Course.Extend~
+- [X] ~Course.Extend~
 - [ ] ~Course.Comonad~
 - [ ] ~Course.Compose~
 - [ ] ~Course.Traversable~
