@@ -9,7 +9,7 @@
 - [X] ~Course.StateT~
 - [X] ~Course.Extend~
 - [X] ~Course.Comonad~
-- [ ] ~Course.Compose~
+- [X] ~Course.Compose~
 - [ ] ~Course.Traversable~
 - [ ] ~Course.ListZipper~
 - [ ] ~Course.Parser~

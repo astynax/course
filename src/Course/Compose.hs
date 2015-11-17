@@ -26,5 +26,5 @@ instance (Applicative f, Applicative g) => Applicative (Compose f g) where
 
 instance (Monad f, Monad g) => Monad (Compose f g) where
 -- Implement the (=<<) function for a Monad instance for Compose
-  (=<<) f (Compose ca) = undefined -- Compose $ (_ <$>) $ (f <$>) =<< ca
-    -- error "todo: Course.Compose (<<=)#instance (Compose f g)"
+  (=<<) = undefined
+  -- (=<<) f (Compose ca) = Compose $ (_ <$>) $ (f <$>) =<< ca
