@@ -10,7 +10,7 @@
 - [X] ~Course.Extend~
 - [X] ~Course.Comonad~
 - [X] ~Course.Compose~
-- [ ] ~Course.Traversable~
+- [X] ~Course.Traversable~
 - [ ] ~Course.ListZipper~
 - [ ] ~Course.Parser~
 - [ ] ~Course.MoreParser~
