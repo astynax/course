@@ -1,0 +1,7 @@
+#!/bin/sh
+if [ -z "$*" ]; then
+    echo "Usage: ./doctest <file.hs>";
+else
+    stack exec doctest -- -isrc -Wall -fno-warn-type-defaults $*;
+fi
+
