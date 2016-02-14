@@ -11,7 +11,7 @@
 - [X] ~Course.Comonad~
 - [X] ~Course.Compose~
 - [X] ~Course.Traversable~
-- [ ] ~Course.ListZipper~
+- [X] ~Course.ListZipper~
 - [ ] ~Course.Parser~
 - [ ] ~Course.MoreParser~
 - [ ] ~Course.JsonParser~
