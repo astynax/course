@@ -12,7 +12,7 @@
 - [X] ~Course.Compose~
 - [X] ~Course.Traversable~
 - [X] ~Course.ListZipper~
-- [ ] ~Course.Parser~
+- [X] ~Course.Parser~
 - [ ] ~Course.MoreParser~
 - [ ] ~Course.JsonParser~
 - [ ] ~Course.Interactive~
