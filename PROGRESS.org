@@ -13,7 +13,7 @@
 - [X] ~Course.Traversable~
 - [X] ~Course.ListZipper~
 - [X] ~Course.Parser~
-- [ ] ~Course.MoreParser~
+- [X] ~Course.MoreParser~
 - [ ] ~Course.JsonParser~
 - [ ] ~Course.Interactive~
 - [ ] ~Course.Anagrams~
