@@ -14,7 +14,7 @@
 - [X] ~Course.ListZipper~
 - [X] ~Course.Parser~
 - [X] ~Course.MoreParser~
-- [ ] ~Course.JsonParser~
+- [X] ~Course.JsonParser~
 - [ ] ~Course.Interactive~
 - [ ] ~Course.Anagrams~
 - [ ] ~Course.FastAnagrams~
